@@ -137,50 +137,26 @@ textarea:focus-visible	{
 
 .input-button {
 	border-style: none;
-
-	display: block;
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
     margin-left: auto;
     margin-right: auto;
-	
-	background-color: #634394; 
-	color:white;
-	
-	height: 7.5%;
-	width: auto;
-	font-size: 20px;
-	
-	transition: .3s;
-	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+    
+    background-color: #634394; 
+    color: white;
+    
+    height: 7.5%;
+    width: 10%;
+    font-size: 20px;
+    
+    transition: .3s;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Optional, not necessary with flex */
+	text-decoration: none;
 }
 
 .input-button:hover {
 	transition: .3s;
 	background-color: #393576;
 }
-
-
-/*
-
-.input-style:focus {
-    height: 35px;
-    transition: all 0.1s ease-in-out;
-}
-
-form {
-	
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.formstyle:focus-visible	{	
-	outline-style: solid;
-	outline-width: thin;
-
-	transition: all 0.1s ease-in-out;
-	outline-width: 2.5px;
-	outline-color: #393576;
-}
-*/
-
-/* table */
