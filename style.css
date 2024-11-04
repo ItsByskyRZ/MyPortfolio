@@ -160,3 +160,28 @@ textarea:focus-visible	{
 	transition: .3s;
 	background-color: #393576;
 }
+
+
+/*
+.input-style:focus {
+    height: 35px;
+    transition: all 0.1s ease-in-out;
+}
+
+form {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formstyle:focus-visible	{	
+	outline-style: solid;
+	outline-width: thin;
+
+	transition: all 0.1s ease-in-out;
+	outline-width: 2.5px;
+	outline-color: #393576;
+}
+
+/* table */
